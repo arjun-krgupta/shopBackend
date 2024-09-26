@@ -7,7 +7,7 @@ app.get('/',(req,res)=>
     res.send('Hello World')
 })
 app.get('/about',(req,res)=>
-{
+{ 
     res.send("<h1>About us </h1>")
 })
 app.listen(process.env.PORT,()=>
